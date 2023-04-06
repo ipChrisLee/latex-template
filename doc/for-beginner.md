@@ -17,3 +17,5 @@ LaTeX的安装可以参考[这个文档](http://tug.ctan.org/info/install-latex-
 `Latex-workshop > Latex: Out Dir`是生成结果文件的地方，建议改成`%DIR%/build`，因为`build`已经在`.gitignore`里面了。
 
 `Latex-workshop > Latex > Auto Clean: Run`可以指定某些时候（比如编译完成时）将aux文件清除。
+
+`Latex-workshop > Latex: Recipes`点击`Edit in settings.json`可以更改工具链顺序，本地`xelatex`是没有问题的，建议将这一项放在最前面。
